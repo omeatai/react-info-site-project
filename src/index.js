@@ -1,12 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-function App() {
+function Tapp() {
 	return (
 		<div>
-			<h1>Hello Everyone!</h1>
+			<h1>Welcome to awesome React!</h1>
 		</div>
 	);
 }
 
-ReactDOM.render(<App />, document.getElementById("root"));
+ReactDOM.render(<Tapp />, document.getElementById("root"));
