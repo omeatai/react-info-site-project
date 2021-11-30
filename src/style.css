@@ -5,4 +5,52 @@
 body {
 	margin: 0;
 	font-family: Inter, sans-serif;
+  background: #000;
 }
+
+.container {
+  width: 550px;
+  margin: 0 auto;
+  background: #282D35;
+}
+
+.nav {
+  background: #21222A;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start; 
+  padding: 31px 26px;
+}
+
+.logo {
+  max-width: 28.93px;
+}
+
+.title {
+  margin: 0; /*To remove inherent margin on the h1 element*/
+  width: 122.39px;
+  height: 22.25px;
+  margin-left: 6.66px;
+  margin-right: auto;
+  font-size: 22.2535px;
+  line-height: 27px;
+  letter-spacing: -0.05em;
+  font-weight: normal;
+  color: #61DAFB;
+};
+
+.extra-title {
+  font-size: 16px;
+  line-height: 19px;
+  text-align: right;
+  color: #DEEBF8;
+}
+
+.main {
+  background: #282D35;
+  color: #fff;
+  height: auto;
+}
+

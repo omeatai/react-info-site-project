@@ -1,13 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import App from "./App";
+import "./style.css";
 
-function App() {
-	return (
-		<div>
-			<h1>Welcome to awesome React!</h1>
-			<p>Let's get started!</p>
-		</div>
-	);
-}
+ReactDOM.render(
+  <div className="container">
+    <App />
+  </div>, 
+  document.getElementById("root"));
 
-ReactDOM.render(<App />, document.getElementById("root"));
+
+
