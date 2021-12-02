@@ -11,7 +11,6 @@ export default function Main() {
         <li>It is maintained by Facebook</li>
         <li>It powers thousands of enterprise apps, including mobile apps</li>
       </ul>
-      <img src="https://i.ibb.co/zSqKSGH/reactjs-icon-2.png" alt="React half-logo" className="logo-half"/>
     </div>
   )
 }
